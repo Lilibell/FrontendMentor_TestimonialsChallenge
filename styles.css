@@ -48,7 +48,7 @@ img {
 
 .highlight {
   font-weight: 600;
-  font-size: 17px;
+  font-size: 20px;
   margin-top: 1.5em;
   margin-bottom: 1.5em;
 }
@@ -68,7 +68,7 @@ img {
 
 .jonathan {
   background-color: hsl(217, 19%, 35%);
-  color: hsl(0, 0%, 81%);
+  color: hsl(0, 0%, 100%);
 }
 
 .jeanette {
