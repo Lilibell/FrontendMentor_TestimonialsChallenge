@@ -37,6 +37,7 @@ img {
   border-radius: 50%;
   float: left;
   margin-right: 1.5em;
+  background-color: hsl(263, 55%, 60%);
 }
 
 .name {
@@ -53,7 +54,7 @@ img {
 }
 
 .purpleBorder {
-  border: 4px solid hsl(263, 55%, 60%);
+  border: 3px solid hsl(263, 55%, 60%);
 }
 
 .highlight {
@@ -100,12 +101,9 @@ img {
 
 footer {
   font-size: 11px;
-  width: 640px;
+  margin-top: 1rem;
+  width: 100%;
   text-align: center;
-  position: fixed;
-  bottom: 0;
-  left: 50%;
-  margin-left: -320px;
 }
 a {
   color: hsl(228, 45%, 44%);
@@ -118,7 +116,7 @@ a:hover {
 @media (min-width: 376px) {
   .content {
     width: 100vw;
-    height: 100vh;
+    height: 97vh;
     grid-template-columns: 1fr repeat(4, 2fr) 1fr;
     grid-template-rows: 1fr repeat(2, 1fr) 1fr;
   }
@@ -146,5 +144,9 @@ a:hover {
 
   .kira {
     grid-area: 2/5/4/6;
+  }
+
+  footer {
+    margin: 0;
   }
 }
